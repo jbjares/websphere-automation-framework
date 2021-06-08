@@ -1,0 +1,4 @@
+#Tue Jul 31 15:20:12 GMT-03:00 2012
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:9081/UTC/initialize?port\=2810&wasAdminPort\=9634&wasAdminConn\=IPC|*|http\://localhost\:9061/ibm/console|*|http\://localhost\:9080/UTC/initialize?port\=2809&wasAdminPort\=9633&wasAdminConn\=IPC|*|http\://localhost\:9060/ibm/console|*|http\://localhost\:9080/S095-AutoDeployWEB/index.faces|*|

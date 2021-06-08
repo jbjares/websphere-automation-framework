@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="S095-AutoDeploySupportEAR" key="LASTEARNAME_"/>
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="was.base.v7"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="C:\Users\c010098\Desktop\AutoDeploy\S095-AutoDeployEAR.ear"/>
+		<item value="C:\Users\c010098\Desktop\S095-AutoDeploySupportEAR.ear"/>
+		<item value="C:\Users\c010098\Desktop\S095-AutoDeployEAR.ear"/>
+		<item value="C:\Users\c010098\Desktop\S095-DeployableEAR.ear"/>
+	</list>
+</section>

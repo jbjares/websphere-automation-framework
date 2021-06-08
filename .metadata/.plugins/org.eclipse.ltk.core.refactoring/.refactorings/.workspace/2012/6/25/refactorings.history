@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Renomear o recurso &apos;S095-DeployableEAR&apos; para &apos;S095-AutoDeployEAR&apos;" description="Renomear o recurso &apos;S095-DeployableEAR&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/S095-DeployableEAR" name="S095-AutoDeployEAR" stamp="1339508313778" updateReferences="true"/>&#x0A;<refactoring comment="Renomear o recurso &apos;S095-DeployableWEB&apos; para &apos;S095-AutoDeployWEB&apos;" description="Renomear o recurso &apos;S095-DeployableWEB&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/S095-DeployableWEB" name="S095-AutoDeployWEB" stamp="1339508322320" updateReferences="true"/>
+</session>

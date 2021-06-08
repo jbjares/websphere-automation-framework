@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd">
+  <display-name>S095-IntegraEJB</display-name>
+  <enterprise-beans>
+  	<session>
+  		<ejb-name>Executa</ejb-name>
+  		<ejb-class>br.gov.bnb.s095.exemplo.Executa</ejb-class>
+  		<session-type>Stateless</session-type>
+  		<transaction-type>Container</transaction-type>
+  		<resource-ref>
+  			<description></description>
+  			<res-ref-name>ref-url/servico</res-ref-name>
+  			<res-type>java.net.URL</res-type>
+  			<res-auth>Container</res-auth>
+  			<res-sharing-scope>Shareable</res-sharing-scope>
+  		</resource-ref>
+  		<resource-ref>
+  			<description></description>
+  			<res-ref-name>ref-mail/S095-BNBMail</res-ref-name>
+  			<res-type>javax.mail.Session</res-type>
+  			<res-auth>Container</res-auth>
+  			<res-sharing-scope>Shareable</res-sharing-scope>
+  		</resource-ref></session>
+  	<message-driven>
+  		<ejb-name>IntegraMDB</ejb-name>
+  		<ejb-class>br.gov.bnb.autodeploy.integra.mdb.IntegraMDB</ejb-class>
+  		<transaction-type>Container</transaction-type>
+  		<message-destination-type>javax.jms.Queue</message-destination-type>
+  		
+  	</message-driven></enterprise-beans>
+  
+  <ejb-client-jar>S095-IntegraEJBClient.jar</ejb-client-jar> 
+ </ejb-jar>

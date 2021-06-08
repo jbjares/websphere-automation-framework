@@ -1,0 +1,7 @@
+#Tue Aug 07 15:20:07 GMT-03:00 2012
+S095-AutoDeployEAR/S095-AutoDeployWEB=S095-AutoDeployWEB.war
+S095-AutoDeployEAR/S095-DeployableEJBClient=S095-DeployableEJBClient.jar
+S095-AutoDeployEAR/S095-IntegraEJB=S095-IntegraEJB.jar
+S095-AutoDeployEAR/S095-DeployableEJB=S095-DeployableEJB.jar
+S095-AutoDeployEAR/S095-IntegraEJBClient=S095-IntegraEJBClient.jar
+S095-AutoDeployEAR/S095-DeployableJPA=S095-DeployableJPA.jar

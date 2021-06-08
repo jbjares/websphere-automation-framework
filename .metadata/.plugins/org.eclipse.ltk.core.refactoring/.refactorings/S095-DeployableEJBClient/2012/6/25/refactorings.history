@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Renomear o tipo &apos;br.gov.bnb.s095.exemplo.ejb.to.PessoaTO&apos; para &apos;V533audiTO&apos;&#x0D;&#x0A;- Projeto original: &apos;S095-DeployableEJBClient&apos;&#x0D;&#x0A;- Elemento original: &apos;br.gov.bnb.s095.exemplo.ejb.to.PessoaTO&apos;&#x0D;&#x0A;- Elemento renomeado: &apos;br.gov.bnb.s095.exemplo.ejb.to.V533audiTO&apos;&#x0D;&#x0A;- Atualizar referências para elemento recriado&#x0D;&#x0A;- Atualizar ocorrências textuais em comentários e cadeias" description="Renomear o tipo &apos;PessoaTO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/ejbModule&lt;br.gov.bnb.s095.exemplo.ejb.to{PessoaTO.java[PessoaTO" matchStrategy="1" name="V533audiTO" qualified="false" references="true" similarDeclarations="false" stamp="1339612878626" textual="false" version="1.0"/>
+</session>

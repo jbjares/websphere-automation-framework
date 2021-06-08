@@ -1,0 +1,4 @@
+#Jython Project Settings. DO NOT CHANGE THIS FILE!
+#Thu Dec 19 18:21:51 GMT-03:00 2013
+systempath=\n\n
+classpath=C\:/Projetos/Arquitetura/Jython/HelloWorld/teste/lib.jar;\nC\:/Projetos/Arquitetura/Jython/HelloWorld/teste/lib.jar;

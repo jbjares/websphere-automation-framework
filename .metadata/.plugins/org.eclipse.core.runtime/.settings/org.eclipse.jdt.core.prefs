@@ -1,0 +1,28 @@
+#Fri Aug 03 13:38:40 GMT-03:00 2012
+org.eclipse.jdt.core.classpathVariable.WAS_V61_IMPL_FACTORY_PROP=C\:/Program Files (x86)/IBM/IMShared/plugins/com.ibm.websphere.v61_6.1.200.v20101015_1536/implfactory.jar
+org.eclipse.jdt.core.compiler.compliance=1.6
+org.eclipse.jdt.core.classpathVariable.WAS_V61FP_WEBSERVICES_THINCLIENT=C\:/Program Files (x86)/IBM/SDP_75/runtimes/base_v61_stub/runtimes/com.ibm.jaxws.thinclient_6.1.0.jar
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.classpathVariable.BNB_APPLIB=C\:/BNB/BNB_APPLIB
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Program Files (x86)/IBM/IMShared/plugins/org.junit_3.8.2.v20080602-1318
+org.eclipse.jdt.core.classpathVariable.WAS_V7JAXWS_WEBSERVICES_THINCLIENT=C\:/Program Files (x86)/IBM/SDP_75/runtimes/base_v7/runtimes/com.ibm.jaxws.thinclient_7.0.0.jar
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/Program Files (x86)/IBM/SDP_75
+org.eclipse.jdt.core.classpathVariable.WAS_V61_WEBSERVICES_THINCLIENT=C\:/Program Files (x86)/IBM/SDP_75/runtimes/base_v61_stub/runtimes/com.ibm.ws.webservices.thinclient_6.1.0.jar
+org.eclipse.jdt.core.classpathVariable.SQLJ_JAR=C\:/Program Files (x86)/IBM/IMShared/plugins/com.ibm.datatools.sqlj.translator_2.1.0.v20100709_0407/sqlj.zip
+org.eclipse.jdt.core.classpathVariable.JPA_WEB_DEV=C\:/Program Files (x86)/IBM/IMShared/plugins/com.ibm.etools.webtools.customtag.lib_7.0.500.v20100921_1514/jars/jpa/web-jpa-dev.jar
+org.eclipse.jdt.core.classpathVariable.WAS_V6_IMPL_FACTORY_PROP=C\:/Program Files (x86)/IBM/IMShared/plugins/com.ibm.websphere.v6_6.0.200.v20100710_0411/implfactory.jar
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=
+org.eclipse.jdt.core.circularClasspath=warning
+org.eclipse.jdt.core.classpathVariable.WAS_V7_IMPL_FACTORY_PROP=C\:/Program Files (x86)/IBM/IMShared/plugins/com.ibm.websphere.v7_7.0.3.v20110824_2356/implfactory.jar
+org.eclipse.jdt.core.userLibrary.APACHE_COMMONS=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="1">\r\n\t<archive path\="C\:/Projetos/libs/commons-beanutils-1.8.3.jar"/>\r\n\t<archive path\="C\:/Projetos/libs/commons-logging.jar"/>\r\n\t<archive path\="C\:/Projetos/libs/commons-collections-3.2.1/commons-collections-3.2.1.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files (x86)/IBM/SDP_75/jdk/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.ASPECTJRT_LIB=C\:/Program Files (x86)/IBM/SDP_75/plugins/org.aspectj.runtime_1.6.4.20090304172355/aspectjrt.jar
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.userLibrary.APACHE_POI=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="1">\r\n\t<archive path\="C\:/Projetos/libs/Apache POI/poi-3.8-20120326.jar"/>\r\n\t<archive path\="C\:/Projetos/libs/Apache POI/poi-excelant-3.8-20120326.jar"/>\r\n\t<archive path\="C\:/Projetos/libs/Apache POI/poi-ooxml-3.8-20120326.jar"/>\r\n\t<archive path\="C\:/Projetos/libs/Apache POI/poi-ooxml-schemas-3.8-20120326.jar"/>\r\n\t<archive path\="C\:/Projetos/libs/Apache POI/poi-scratchpad-3.8-20120326.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.6
+org.eclipse.jdt.core.compiler.source=1.6
+org.eclipse.jdt.core.classpathVariable.WAS_V7_WEBSERVICES_THINCLIENT=C\:/Program Files (x86)/IBM/SDP_75/runtimes/base_v7/runtimes/com.ibm.ws.webservices.thinclient_7.0.0.jar

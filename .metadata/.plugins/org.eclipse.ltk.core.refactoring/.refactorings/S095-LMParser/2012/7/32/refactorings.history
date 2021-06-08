@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copiar 1 elemento(s) para &apos;br.gov.bnb.s095.lib.odm.parser.ODMParserMock.java&apos;&#x0D;&#x0A;- Projeto original: &apos;S095-LMParser&apos;&#x0D;&#x0A;- Elemento de destino: &apos;br.gov.bnb.s095.lib.odm.parser.ODMParserMock.java&apos;&#x0D;&#x0A;- Elemento original: &apos;br.gov.bnb.s095.lib.odm.parser.ODMParserMock.java&apos;" description="Copiar unidade de compilação" destination="/src&lt;br.gov.bnb.s095.lib.odm.parser{ODMParserMock.java" element1="/src&lt;br.gov.bnb.s095.lib.odm.parser{ODMParserMock.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1343740885051" units="1" version="1.0"/>
+</session>

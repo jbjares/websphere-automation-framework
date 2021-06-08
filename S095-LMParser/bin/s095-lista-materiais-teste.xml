@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista-de-materiais id="autoDeploy_ID" version="1" xmlns="http://autodeploy.s095.bnb.gov.br/xml/ns/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<aplicacao>
+		<localizacao-pacote-aplicativo nome-item="Localizacao do pacote aplicativo" valor="C:\Users\c010098\Desktop\AutoDeploy\S095-AutoDeployEAR.ear" />
+		<nome-raiz-contexto nome-item="Nome da raiz de contexto" valor="S095-AutoDeployWEB" />
+		<pre-compilar-Arquivos-jSP nome-item="Pre-compilar arquivos JSP?" valor="Sim" />
+		<celula-no-servidor-destino nome-item="Celula/No/Servidor destino" valor="WebSphere:cell=M1072317Node02Cell,node=M1072317Node02,Server=server1" />
+		<diretorio-instalacao-aplicativo nome-item="Diretorio de instalacao do aplicativo" valor="C:\Program Files (x86)\IBM\SDP_75\runtimes\base_v7\profiles\AppSrv02\installedApps\M1072317Node02Cell" />
+		<distribuir-aplicativo nome-item="Distribuir aplicativo?" valor="Sim" />
+		<implementar-beans-corporativos nome-item="Implementar Beans Corporativos?" valor="Sim" />
+		<nome-aplicativo nome-item="Nome do aplicativo" valor="S095-AutoDeployEAR" />
+		<nome-modulo-wEB nome-item="Nome do Modulo WEB" valor="S095-AutoDeployWEB" />
+		<nome-modulos-eJB nome-item="Nome do(s) Modulo(s) EJB">
+			<item>S095-DeployableEJB</item>
+			<item>S095-IntegraEJB</item>
+		</nome-modulos-eJB>
+		<criar-mBeans-para-recursos nome-item="Criar MBeans para recursos?" valor="Sim" />
+		<validar-entrada nome-item="Validar Entrada Desligar/Avisar/Falhar" valor="Avisar" />
+		<processar-configuracao-incorporada nome-item="Processar configuracao incorporada?" valor="Nao" />
+		<permissoes-arquivo nome-item="Permissoes de arquivo" valor=".*\.dll=755#.*\.so=755#.*\.a=755#.*\.sl=755" />
+		<mapeamento-modulos-servidores nome-item="Mapeamento de modulos para servidores">
+			<item></item>
+			<item></item>
+		</mapeamento-modulos-servidores>
+		<bibliotecas-compartilhadas nome-item="Referenciar bibliotecas compartilhadas">	
+			<item>S095-AutoDeployEAR/Log4J</item>
+			<item>S095-AutoDeployEAR/BNB-Utilitarios</item>
+			<item>S095-AutoDeployWEB/BNB-JCIFS</item>
+			<item>S095-AutoDeployWEB/BNB-Sitelib</item>
+			<item>S095-AutoDeployWEB/Log4J</item>
+			<item>S095-AutoDeployWEB/BNB-Seguranca</item>
+		</bibliotecas-compartilhadas>
+		<esta-em-cluster nome-item="Esta em Cluster" valor="Nao" />
+		<escopo-application-manager nome-item="Escopo do Application Manager" valor="cell=M1072317Node02Cell,node=M1072317Node02,type=ApplicationManager,process=server1,*" />
+	</aplicacao>
+	<seguranca-j2C>
+		<alias nome-item="J2C Alias" valor="S533_DB2_JAAS_1" />
+		<usuario nome-item="J2C ID do usuario" valor="U533DES" />
+		<senha nome-item="J2C Senha" valor="46TQ3653" />
+		<descricao nome-item="J2C Descricao" valor="Autenticacao com o banco DB2 do S533" />
+	</seguranca-j2C>
+	<seguranca-j2C>
+		<alias nome-item="J2C Alias" valor="S234_SQLSERVER_JAAS_2" />
+		<usuario nome-item="J2C ID do usuario" valor="s234con" />
+		<senha nome-item="J2C Senha" valor="s234cons" />
+		<descricao nome-item="J2C Descricao" valor="Autenticacao com o banco SQL Server do S234" />
+	</seguranca-j2C>
+	<recurso-datasource>
+		<nome-origem nome-item="DS Nome da origem de dados" valor="S533DS" />
+		<nome-jndi nome-item="DS Nome JNDI" valor="jdbc/S533DS" />
+		<alias-autenticacao nome-item="DS Alias de autenticacao" valor="S533_DB2_JAAS_1" />
+		<nome-bancodedados nome-item="DS Nome do banco de dados" valor="DB2T" />
+		<nome-servidor nome-item="DS Nome do servidor" valor="d001mfd1" />
+		<porta-servidor nome-item="DS Numero da porta" valor="5021" />
+		<utilizar-cmp nome-item="DS Utilizar a origem no CMP" valor="Sim" />
+		<escopo-provedor nome-item="DS Escopo do Provedor" valor="WebSphere:Server=server1" />
+		<nome-provedor nome-item="DS Nome do Provedor" valor="DB2 Universal JDBC Driver Provider (XA)" />
+		<nome-classe-helper nome-item="DS Nome da Classe Helper" valor="com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper" />
+	</recurso-datasource>
+	<recurso-datasource>
+		<nome-origem nome-item="DS Nome da origem de dados" valor="DS234_SQLServer" />
+		<nome-jndi nome-item="DS Nome JNDI" valor="jdbc/DS234_SQLServer" />
+		<alias-autenticacao nome-item="DS Alias de autenticacao" valor="S234_SQLSERVER_JAAS_2" />
+		<nome-bancodedados nome-item="DS Nome do banco de dados" valor="DAPO234_CQU" />
+		<nome-servidor nome-item="DS Nome do servidor" valor="D001SRP02" />
+		<porta-servidor nome-item="DS Numero da porta" valor="1433" />
+		<utilizar-cmp nome-item="DS Utilizar a origem no CMP" valor="Sim" />
+		<escopo-provedor nome-item="DS Escopo do Provedor" valor="WebSphere:Server=server1" />
+		<nome-provedor nome-item="DS Nome do Provedor" valor="Microsoft SQL Server JDBC Driver" />
+		<nome-classe-helper nome-item="DS Nome da Classe Helper" valor="com.ibm.websphere.rsadapter.MicrosoftSQLServerDataStoreHelper" />
+	</recurso-datasource>
+	<recurso-url>
+		<nome nome-item="URL Nome" valor="S033-Autodeploy-paginaAcessoNegado" />
+		<nome-jndi nome-item="URL Nome JNDI" valor="url/paginaAcessoNegado" />
+		<specification nome-item="URL SPEC" valor="http://localhost:9080/S095-AutoDeployWEB/faces/acessonegado.jsp" />
+		<escopo-provedor nome-item="URL Escopo Provedor" valor="Cell=M1072317Node02Cell" />
+		<nome-provedor nome-item="URL Nome Provedor" valor="Default URL Provider" />
+	</recurso-url>
+	<recurso-url>
+		<nome nome-item="URL Nome" valor="servico" />
+		<nome-jndi nome-item="URL Nome JNDI" valor="url/servico" />
+		<specification nome-item="URL SPEC" valor="http://d001mfd1.capgv.intra.bnb:9082/S095-AutoDeploySupportEJB_HTTPRouter/ExecutaService" />
+		<escopo-provedor nome-item="URL Escopo Provedor" valor="Cell=M1072317Node02Cell" />
+		<nome-provedor nome-item="URL Nome Provedor" valor="Default URL Provider" />
+	</recurso-url>
+	<jms-actvation-specfification>
+		<escopo nome-item="JMS Escopo Actvation Specfification" valor="Node:M1072317Node02" />
+		<nome  nome-item="JMS Nome Actvation Specfification" valor="M1072317-AUTODEPLOY-AS" />
+		<nome-jndi  nome-item="JMS Nome JNDI Actvation Specfification" valor="jms/M1072317-AUTODEPLOY-AS" />
+		<nome-jndi-destino nome-item="JMS Nome JNDI Destino" valor="jms/F095ENT.BNBAUTODEPLOY" />
+		<tipo-destino nome-item="JMS Tipo Destino" valor="javax.jms.Queue" />
+		<descricao  nome-item="JMS Descricao" valor="descricao" />
+		<nome-queue-manager nome-item="JMS Nome do Queue Manager" valor="CSQ1" />
+		<host-queue-manager nome-item="JMS Host do Queue Manager" valor="D001MFD1" />
+		<porta-queue-manager nome-item="JMS Porta do Queue Manager" valor="1414" />
+		<porta-queue-manager nome-item="JMS Canal de Conexao do Queue Manager" valor="SYSTEM.DEF.SVRCONN" />
+	</jms-actvation-specfification>
+	<jms-queue>
+		<nome nome-item="JMS Escopo Fila" valor="Node:M1072317Node02" />
+		<escopo nome-item="JMS Nome Fila" valor="F095ENT.BNBAUTODEPLOY" />
+		<nome-jndi nome-item="JMS Nome JNDI Fila" valor="jms/F095ENT.BNBAUTODEPLOY" />
+		<nome-mq nome-item="JMS Nome da Fila no MQ" valor="F095ENT.BNBAUTODEPLOY" />
+		<tipo nome-item="JMS Tipo de Fila" valor="QUEUE" />
+	</jms-queue>
+	<seguranca-login-aplicativo>
+		<alias nome-item="LA Alias" valor="S095-AutoDeployISKEY4" />
+		<estrategia-autenticacao nome-item="LA Estrategia de Autenticacao" valor="REQUIRED" />
+		<nome-classe-modulo nome-item="LA Nome da Classe do Modulo" valor="br.gov.bnb.seguranca.login.IsKeyLoginModule" />
+		<propriedades-personalizadas nome-item="LA Propriedades Personalizadas">
+			<item>acao=autorizarUsuario</item>
+			<item>aplicacao=S033ORC</item>
+			<item>endereco=http://d001wwd01/ISKEY/WSISKey.asmx</item>
+			<item>nivel.log=ALL</item>
+			<item>nome.espaco=http://tempuri.org/</item>
+			<item>tipo=web.service</item>
+		</propriedades-personalizadas>
+	</seguranca-login-aplicativo>
+	
+</lista-de-materiais>

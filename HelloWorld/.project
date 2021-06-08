@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HelloWorld</name>
+	<comment></comment>
+	<projects>
+		<project>S095-LMParser</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>net.redrobin.eclipse.jydt.core.jythonBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.ws.ast.jythontools.core.jythonbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>net.redrobin.eclipse.jydt.core.jythonNature</nature>
+		<nature>com.ibm.ws.ast.jythontools.core.jythonnature</nature>
+	</natures>
+</projectDescription>

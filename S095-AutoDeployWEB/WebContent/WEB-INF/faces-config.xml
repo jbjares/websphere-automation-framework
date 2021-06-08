@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+    version="1.2">
+	<application>
+		<state-manager>com.ibm.faces.application.DevelopmentStateManager</state-manager>
+	</application>
+	<factory>
+		<faces-context-factory>com.ibm.faces.context.AjaxFacesContextFactory</faces-context-factory>
+		<render-kit-factory>com.ibm.faces.renderkit.AjaxRenderKitFactory</render-kit-factory>
+	</factory>
+	<managed-bean>
+		<managed-bean-name>pc_Acessonegado1</managed-bean-name>
+		<managed-bean-class>pagecode.Acessonegado1</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>pc_Index</managed-bean-name>
+		<managed-bean-class>br.gov.bnb.s033.orcamento.apresentacao.pagecode.Index</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>pc_BNB_Template</managed-bean-name>
+		<managed-bean-class>pagecode.BNB_Template</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>pc_Paginateste</managed-bean-name>
+		<managed-bean-class>pagecode.Paginateste</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+	<lifecycle>
+		<phase-listener>com.ibm.faces.webapp.ValueResourcePhaseListener</phase-listener>
+	</lifecycle>
+
+</faces-config>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newpages>
+    <project name="S095-AutoDeployWEB">
+        <item src="/WebContent/paginateste.jsp"/>
+        <item src="/WebContent/index.jsp"/>
+        <item src="/WebContent/index.html"/>
+        <item src="/WebContent/trail.jsp"/>
+        <item src="/WebContent/menu-js_integrado.jsp"/>
+        
+        <item src="/WebContent/componente/paginador.jsp"/>
+        <item src="/WebContent/acessonegado.jsp"/>
+    <sashinfo weight1="128" weight2="871"/>
+    </project>
+</newpages>

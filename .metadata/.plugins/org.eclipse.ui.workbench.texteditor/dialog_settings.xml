@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="419" key="DIALOG_Y_ORIGIN"/>
+		<item value="729" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="280" key="DIALOG_Y_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="706" key="DIALOG_X_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="525" key="DIALOG_WIDTH"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wholeword"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wrap"/>
+		<item value="valor" key="selection"/>
+		<item value="false" key="isRegEx"/>
+		<list key="replacehistory">
+			<item value="\\\\"/>
+			<item value="-"/>
+			<item value="o"/>
+			<item value="a"/>
+			<item value="u"/>
+			<item value="i"/>
+			<item value="e"/>
+			<item value="ca"/>
+		</list>
+		<list key="findhistory">
+			<item value="valor"/>
+			<item value="nome-item"/>
+			<item value="celulaNoServidorOuCluster"/>
+			<item value="getCelulaNoServidorDestino"/>
+			<item value="\\"/>
+			<item value="LA Propriedades Personalizadas"/>
+			<item value="â€“"/>
+			<item value="DS Alias de auten"/>
+		</list>
+	</section>
+</section>

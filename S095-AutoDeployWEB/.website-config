@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website version="700">
+    <structure>
+        <description/>
+        <author/>
+        <page nid="1" src="/WebContent/index.jsp" template="/WebContent/S095_BNJSFJavaWebTemplate_integrado.jtpl" servleturl="/S095-AutoDeployWEB/index.faces" id="1">
+            <title>S033-Orçamentos</title>
+            <group nid="3" gid="group">
+                <title>Agrupar</title>
+                <page nid="2" src="/WebContent/paginateste.jsp" template="/WebContent/S095_BNJSFJavaWebTemplate_integrado.jtpl" servleturl="/S095-AutoDeployWEB/paginateste.faces" id="2">
+                    <title>Teste Recurso URL Pagina de Acesso Negado</title>
+                </page>
+            </group>
+        </page>
+    </structure>
+</website>

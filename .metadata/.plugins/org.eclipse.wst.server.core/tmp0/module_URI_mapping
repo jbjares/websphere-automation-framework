@@ -1,0 +1,10 @@
+#Mon Aug 06 14:19:30 GMT-03:00 2012
+S095-AutoDeployEAR/S095-IntegraEJB=S095-IntegraEJB.jar
+S095-AutoDeploySupportEAR/S095-AutoDeploySupportEJB_HTTPRouter=S095-AutoDeploySupportEJB_HTTPRouter.war
+S095-AutoDeployEAR/S095-DeployableEJB=S095-DeployableEJB.jar
+S095-AutoDeployEAR/S095-DeployableJPA=S095-DeployableJPA.jar
+S095-AutoDeployEAR/S095-IntegraEJBClient=S095-IntegraEJBClient.jar
+S095-AutoDeployEAR/S095-DeployableEJBClient=S095-DeployableEJBClient.jar
+S095-AutoDeploySupportEAR/S095-AutoDeploySupportEJBClient=S095-AutoDeploySupportEJBClient.jar
+S095-AutoDeploySupportEAR/S095-AutoDeploySupportEJB=S095-AutoDeploySupportEJB.jar
+S095-AutoDeployEAR/S095-AutoDeployWEB=S095-AutoDeployWEB.war

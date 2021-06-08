@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.ws.ast.st.v7.core.launchConfigurationType">
+<mapAttribute key="PROFILE_ENV_VARIABLES">
+<mapEntry key="PATH" value="C:\Program Files (x86)\IBM\IMShared\plugins\org.eclipse.tptp.platform.ac.win_ia32_4.4.104.v200910140007\agent_controller\bin;C:\Program Files (x86)\IBM\IMShared\plugins\org.eclipse.tptp.platform.ac.win_ia32_4.4.104.v200910140007\agent_controller\lib;C:\Program Files (x86)\IBM\IMShared\plugins\org.eclipse.tptp.platform.jvmti.runtime_4.4.204.v200910231232\agent_files\win_ia32"/>
+<mapEntry key="TPTP_AC_HOME" value="C:\Program Files (x86)\IBM\IMShared\plugins\org.eclipse.tptp.platform.ac.win_ia32_4.4.104.v200910140007\agent_controller"/>
+<mapEntry key="JAVA_PROFILER_HOME" value="C:\Program Files (x86)\IBM\IMShared\plugins\org.eclipse.tptp.platform.jvmti.runtime_4.4.204.v200910231232\agent_files\win_ia32"/>
+<mapEntry key="CLASSPATH" value="C:\Program Files (x86)\IBM\IMShared\plugins\org.eclipse.tptp.platform.jvmti.runtime_4.4.204.v200910231232\agent_files\win_ia32"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_DATA_COLLECTOR" value="org.eclipse.tptp.trace.jvmti.jvmtiMechanism:org.eclipse.tptp.analysisType.jvmti.execution"/>
+<stringAttribute key="org.eclipse.hyades.trace.ui.ATTR_PROFILING_SET" value="tptp-dummy-profiling-set-WAS prof2 - Autodeploy"/>
+<intAttribute key="org.eclipse.tptp.platform.profile.server.coreSERVER_DIALOG_STATUS" value="1"/>
+<stringAttribute key="org.eclipse.tptp.platform.profile.server.coreSERVER_JVM_VERSION" value="1.6.0"/>
+<stringAttribute key="server-id" value="WAS prof2 - Autodeploy"/>
+</launchConfiguration>

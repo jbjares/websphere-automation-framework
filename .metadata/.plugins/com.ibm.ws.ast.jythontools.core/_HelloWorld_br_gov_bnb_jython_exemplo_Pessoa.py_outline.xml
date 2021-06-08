@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><root identifier="root" indent="0" length="148" nestLevel="0" offset="0" type="root">
+<child identifier="Pessoa" indent="8" length="148" nestLevel="0" offset="0" type="class">
+<child identifier="setNome" indent="16" length="51" nestLevel="1" offset="46" type="def"/>
+<child identifier="getNome" indent="16" length="51" nestLevel="1" offset="97" type="def"/>
+</child>
+<child identifier="teste" indent="0" length="1" nestLevel="0" offset="148" type="def"/>
+</root>

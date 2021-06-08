@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><root identifier="root" indent="0" length="3462" nestLevel="0" offset="0" type="root">
+<child identifier="readDistributionDirectory" indent="8" length="1950" nestLevel="0" offset="690" type="def">
+<child identifier="name" indent="16" length="774" nestLevel="1" offset="1828" type="for"/>
+</child>
+<child identifier="parseApplicationNames" indent="8" length="811" nestLevel="0" offset="2651" type="def">
+<child identifier="ear" indent="16" length="625" nestLevel="1" offset="2795" type="for"/>
+</child>
+</root>

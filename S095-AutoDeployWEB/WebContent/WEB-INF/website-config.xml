@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website version="700">
+    <structure>
+        <page nid="1" servleturl="/S095-AutoDeployWEB/index.faces" src="/S095-AutoDeployWEB/index.jsp">
+            <title>S033-Orçamentos</title>
+            <group gid="group" nid="3">
+                <title>Agrupar</title>
+                <page nid="2" servleturl="/S095-AutoDeployWEB/paginateste.faces" src="/S095-AutoDeployWEB/paginateste.jsp">
+                    <title>Teste Recurso URL Pagina de Acesso Negado</title>
+                </page>
+            </group>
+        </page>
+    </structure>
+</website>

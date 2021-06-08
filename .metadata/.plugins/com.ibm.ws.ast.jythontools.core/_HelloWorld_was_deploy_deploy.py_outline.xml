@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><root identifier="root" indent="0" length="9422" nestLevel="0" offset="0" type="root">
+<child identifier="deploy" indent="8" length="782" nestLevel="0" offset="840" type="def"/>
+<child identifier="installOrUpdate" indent="8" length="3783" nestLevel="0" offset="1633" type="def">
+<child identifier="appName" indent="16" length="114" nestLevel="1" offset="3515" type="for"/>
+<child identifier="appName" indent="16" length="115" nestLevel="1" offset="3725" type="for"/>
+<child identifier="nodeContainedServers" indent="16" length="228" nestLevel="1" offset="4063" type="for"/>
+<child identifier="item" indent="24" length="368" nestLevel="2" offset="4555" type="for"/>
+</child>
+<child identifier="confirm" indent="8" length="1499" nestLevel="0" offset="5427" type="def"/>
+<child identifier="uninstall" indent="8" length="2485" nestLevel="0" offset="6937" type="def">
+<child identifier="appName" indent="16" length="116" nestLevel="1" offset="8505" type="for"/>
+<child identifier="item" indent="16" length="504" nestLevel="1" offset="8638" type="for"/>
+<child identifier="appName" indent="16" length="117" nestLevel="1" offset="9159" type="for"/>
+</child>
+</root>

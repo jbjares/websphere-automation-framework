@@ -1,0 +1,364 @@
+/**Teste CSS*/
+/** TABLES */
+/** Tabela com Título e Figura */
+.tableTitle{
+    background-color:#FFFFFF; 
+    width:780px;
+    border: 1px solid #6699CC;
+}
+/** Tabela com menu, árvore de 
+  navegação e ajuda */
+.tableMenu{
+	border: 0px solid #0066cc; 
+	background-color:#FFFFFF;
+	width:780px;
+}
+/** Tabela padrão */
+.tableTemplate{
+	width:780px;
+	border: 0px;
+}
+/** Tabela padrão com porcentagem*/
+.tableTemplatePercent{
+	width: 100%;
+	border: 0px;
+}
+/** Tabela padrão sem tamanho definido*/
+.tableTemplateNoWidth{
+	border: 0px;
+}
+TABLE.tableHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+/** TD */
+/** Célula da Imagem */
+TD.cellImage{
+	width:160px;
+	vertical-align: top;
+}
+/** Célula com o nome do projeto*/
+TD.cellProjectName{
+	background-color:#6699CC;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 18pt;
+	font-family: verdana; 
+	color: white;
+}
+/** Célula com menu */
+TD.cellMenu{
+	width: 170px;
+	text-align: left;
+}
+/** Célula com árvore de navegação */
+TD.cellNavigationTree{
+	width:475px;
+	color:#0066cc;
+	font-weight: normal;
+	font-size: 10pt;
+	text-align: left;
+}
+/**TD.cellNavigationTree{
+	width:475px;
+	color: #333366;
+	font-weight: normal;
+	font-size: 10pt;
+	text-align: left;
+}*/
+/** Célula com último texto */
+TD.cellLastText{
+	width: 135px;
+	text-align: right;
+}
+/** Fonte do TD */
+TD.label
+{
+	height: 20px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: right;
+    vertical-align: bottom;
+}
+/** Fonte do TD dos parâmetros. Coluna mais à esquerda*/
+TD.labelParameter
+{
+	height: 20px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: left;
+    vertical-align: middle;
+    width: 192px;
+}
+/** Fonte do TD dos valores. Coluna mais à direita*/
+TD.labelValue
+{
+	height: 20px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: left;
+    vertical-align: middle;
+    width: 588px;
+    backgroud-color: #e8e8e8;
+}
+/** Fonte do TD centralizado*/
+TD.labelCenter
+{
+	height: 20px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: center;
+    vertical-align: middle;
+    backgroud-color: #e8e8e8;
+}
+/** Fonte do TD com texto explicativo da tabela*/
+TD.labelTableInformation
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 20pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #6699CC;
+}
+/** Fonte do TD com right e bold*/
+TD.labelBoldRight
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: right;
+    vertical-align: middle;
+    background-color: #e8e8e8;
+}
+/** Estilo dos selectManyCheckBox */
+TD.tdSelectManyCheckBox
+{
+	height: 20px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: left;
+    vertical-align: top;
+    backgroud-color: #e8e8e8;
+}
+/** Estilo dos TD alinhamento baixo*/
+TD.tdBottom
+{
+	height: 20px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: left;
+    vertical-align: bottom;
+    backgroud-color: #e8e8e8;
+}
+/** TD do botão*/
+TD.tdButton
+{
+    text-align: right;
+	height: 35px;
+}
+/** TD com label dos parâmetros da página dos detalhes*/
+TD.labelParameterDetailPage
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #e8e8e8;
+}
+/**  TD com label dos valores da página dos detalhes. Coluna mais à direita*/
+TD.labelValueDetailPage
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif;
+    text-align: left;
+    vertical-align: middle;
+    backgroud-color: #FFFFFF;
+}
+/** Padrão de fonte para o corpo da página**/
+TD.fonteCorpo {
+    COLOR: #333366;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif
+}
+/** Padrão de fonte para o título da página**/
+TD.fonteTitulo {
+    COLOR: #FFFFFF;
+    font-weight: bold;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif
+}
+
+
+/** DIV */
+/** Tabela com menu, árvore de 
+  navegação e ajuda */
+DIV.copyRight{
+	position: relative; 
+	z-index: 1; 
+	width: 780px; 
+	height: 23px; 
+	bottom: 0px; 
+	left: 0px; 
+	background-color: white; 
+	text-align: center;	
+	font-family: Trebuchet MS; 
+	font-size: 7pt; 
+	font-style: italic; 
+	color: #000000;
+}
+
+/** FIELDSET */
+/** Fonte do fieldset */
+FIELDSET.fieldset
+{
+    BORDER-RIGHT: #6699cc 1px solid;
+    BORDER-TOP: #6699cc 1px solid;
+    BORDER-LEFT: #6699cc 1px solid;
+    BORDER-BOTTOM: #6699cc 1px solid;
+    width:780px;
+}
+
+/** Fonte do fieldset em branco para deixá-lo invisível quando a página não tem legenda*/
+FIELDSET.fieldsetHide
+{
+    BORDER-RIGHT: #6699cc 0px solid;
+    BORDER-TOP: #6699cc 0px solid;
+    BORDER-LEFT: #6699cc 0px solid;
+    BORDER-BOTTOM: #6699cc 0px solid; 
+}
+
+/** LEGEND */
+LEGEND.legend
+{
+    FONT: 18px Verdana, Arial, Helvetica, Sans-Serif;
+    COLOR: #6699cc;
+}
+LEGEND.sublegend
+{
+    FONT: 14px Verdana, Arial, Helvetica, Sans-Serif;
+    COLOR: #6699cc
+}
+
+/** TR */
+/** TR padrão */
+TR.trTemplate
+{
+	background-color: #e8e8e8;
+}
+
+/** Célula com o nome do projeto*/
+TR.trFonteTitulo{
+	background-color:#6699CC;
+	vertical-align: middle;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+/** INPUT */
+/** Texto do input */
+INPUT.text
+{
+    BORDER-RIGHT: #6699cc 1px solid;
+    BORDER-TOP: #6699cc 1px solid;
+    FONT: 11px Verdana, Arial, Helvetica, Sans-Serif;
+    BORDER-LEFT: #6699cc 1px solid;
+    BORDER-BOTTOM: #6699cc 1px solid
+}
+/** Botão de input */
+INPUT.button
+{
+    BORDER-RIGHT: #6699cc 1px solid;
+    BORDER-TOP: #6699cc 1px solid;
+    FONT: 11px Verdana, Arial, Helvetica, Sans-Serif;
+    BORDER-LEFT: #6699cc 1px solid;
+    BORDER-BOTTOM: #6699cc 1px solid;
+    text-align: center;
+}
+
+/** Body */
+/** Padrão do body*/
+BODY
+{
+    BACKGROUND-COLOR: #FFFFFF;
+    COLOR: #333366;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif
+}
+H1
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H2
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H3
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H4
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+
+H5
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+H6
+{
+    COLOR: #6666CC;
+    FONT-FAMILY: 'Times New Roman';
+    TEXT-TRANSFORM: capitalize
+}
+TH {
+ color: #6060cc
+}
+/** Select */
+SELECT
+{
+    BORDER-RIGHT: #6699cc 1px solid;
+    BORDER-TOP: #6699cc 1px solid;
+    FONT: 11px Verdana, Arial, Helvetica, Sans-Serif;
+    BORDER-LEFT: #6699cc 1px solid;
+    BORDER-BOTTOM: #6699cc 1px solid;
+    scroll-track-color: white;
+    scroll-shadow-color: #6699CC;
+    scroll-highlight-color: #6699CC;
+    scroll-3dlight-color: #6699CC
+}
+
+P {
+	text-align: justify;
+}
+
+.fontNavigationTree {
+	color: #333366;
+	font-weight: normal;
+	font-size: 10pt;
+}
+
+/**Fim do Teste CSS*/

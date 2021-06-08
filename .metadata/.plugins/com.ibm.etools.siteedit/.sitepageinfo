@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageinfo>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<project name="S095-AutoDeployWEB">
+        <page lastmodified="1344365240200" linked_css="theme/Master.css" size="6.0" src="C:/Projetos/Arquitetura/Jython/S095-AutoDeployWEB/WebContent/paginateste.jsp" title="Teste Recurso URL Pagina de Acesso Negado"/>
+        <page lastmodified="1344365240265" linked_css="theme/Master.css" size="6.0" src="C:/Projetos/Arquitetura/Jython/S095-AutoDeployWEB/WebContent/index.jsp" title="S033-Orçamentos"/>
+    </project>
+</pageinfo>

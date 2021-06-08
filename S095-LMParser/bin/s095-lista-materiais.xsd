@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema targetNamespace="http://autodeploy.s095.bnb.gov.br/xml/ns/v1" xmlns:Q1="http://autodeploy.s095.bnb.gov.br/xml/ns/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="porta-servidor">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="specification">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="permissoes-arquivo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="mapeamento-modulos-servidores">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="Q1:item"/>
+      </xsd:sequence>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-servidor">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="estrategia-autenticacao">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="host-queue-manager">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="lista-de-materiais">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:aplicacao"/>
+        <xsd:element maxOccurs="unbounded" ref="Q1:seguranca-j2C"/>
+        <xsd:element maxOccurs="unbounded" ref="Q1:recurso-datasource"/>
+        <xsd:element maxOccurs="unbounded" ref="Q1:recurso-url"/>
+        <xsd:element ref="Q1:jms-actvation-specfification"/>
+        <xsd:element ref="Q1:jms-queue"/>
+        <xsd:element ref="Q1:seguranca-login-aplicativo"/>
+      </xsd:sequence>
+      <xsd:attribute name="version" type="xsd:string"/>
+      <xsd:attribute name="id" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="item" type="xsd:string"/>
+  <xsd:element name="jms-queue">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:nome"/>
+        <xsd:element ref="Q1:escopo"/>
+        <xsd:element ref="Q1:nome-jndi"/>
+        <xsd:element ref="Q1:nome-mq"/>
+        <xsd:element ref="Q1:tipo"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-modulos-eJB">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="Q1:item"/>
+      </xsd:sequence>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="escopo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="processar-configuracao-incorporada">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="utilizar-cmp">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-classe-modulo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="bibliotecas-compartilhadas">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="Q1:item"/>
+      </xsd:sequence>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="propriedades-personalizadas">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="Q1:item"/>
+      </xsd:sequence>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="usuario">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-modulo-wEB">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="alias-autenticacao">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="tipo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="localizacao-pacote-aplicativo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="validar-entrada">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-jndi-destino">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="diretorio-instalacao-aplicativo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-queue-manager">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="pre-compilar-Arquivos-jSP">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="esta-em-cluster">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="aplicacao">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:localizacao-pacote-aplicativo"/>
+        <xsd:element ref="Q1:nome-raiz-contexto"/>
+        <xsd:element ref="Q1:pre-compilar-Arquivos-jSP"/>
+        <xsd:element ref="Q1:celula-no-servidor-destino"/>
+        <xsd:element ref="Q1:diretorio-instalacao-aplicativo"/>
+        <xsd:element ref="Q1:distribuir-aplicativo"/>
+        <xsd:element ref="Q1:implementar-beans-corporativos"/>
+        <xsd:element ref="Q1:nome-aplicativo"/>
+        <xsd:element ref="Q1:nome-modulo-wEB"/>
+        <xsd:element ref="Q1:nome-modulos-eJB"/>
+        <xsd:element ref="Q1:criar-mBeans-para-recursos"/>
+        <xsd:element ref="Q1:validar-entrada"/>
+        <xsd:element ref="Q1:processar-configuracao-incorporada"/>
+        <xsd:element ref="Q1:permissoes-arquivo"/>
+        <xsd:element ref="Q1:mapeamento-modulos-servidores"/>
+        <xsd:element ref="Q1:bibliotecas-compartilhadas"/>
+        <xsd:element ref="Q1:esta-em-cluster"/>
+        <xsd:element ref="Q1:escopo-application-manager"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="descricao">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="recurso-datasource">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:nome-origem"/>
+        <xsd:element ref="Q1:nome-jndi"/>
+        <xsd:element ref="Q1:alias-autenticacao"/>
+        <xsd:element ref="Q1:nome-bancodedados"/>
+        <xsd:element ref="Q1:nome-servidor"/>
+        <xsd:element ref="Q1:porta-servidor"/>
+        <xsd:element ref="Q1:utilizar-cmp"/>
+        <xsd:element ref="Q1:escopo-provedor"/>
+        <xsd:element ref="Q1:nome-provedor"/>
+        <xsd:element ref="Q1:nome-classe-helper"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="jms-actvation-specfification">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:escopo"/>
+        <xsd:element ref="Q1:nome"/>
+        <xsd:element ref="Q1:nome-jndi"/>
+        <xsd:element ref="Q1:nome-jndi-destino"/>
+        <xsd:element ref="Q1:tipo-destino"/>
+        <xsd:element ref="Q1:descricao"/>
+        <xsd:element ref="Q1:nome-queue-manager"/>
+        <xsd:element ref="Q1:host-queue-manager"/>
+        <xsd:element maxOccurs="unbounded" ref="Q1:porta-queue-manager"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="alias">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="senha">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-mq">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-classe-helper">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-origem">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="escopo-provedor">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-provedor">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="criar-mBeans-para-recursos">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-bancodedados">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="porta-queue-manager">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="seguranca-j2C">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:alias"/>
+        <xsd:element ref="Q1:usuario"/>
+        <xsd:element ref="Q1:senha"/>
+        <xsd:element ref="Q1:descricao"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="recurso-url">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:nome"/>
+        <xsd:element ref="Q1:nome-jndi"/>
+        <xsd:element ref="Q1:specification"/>
+        <xsd:element ref="Q1:escopo-provedor"/>
+        <xsd:element ref="Q1:nome-provedor"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="seguranca-login-aplicativo">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Q1:alias"/>
+        <xsd:element ref="Q1:estrategia-autenticacao"/>
+        <xsd:element ref="Q1:nome-classe-modulo"/>
+        <xsd:element ref="Q1:propriedades-personalizadas"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="distribuir-aplicativo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-aplicativo">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="celula-no-servidor-destino">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="tipo-destino">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="implementar-beans-corporativos">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-raiz-contexto">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="escopo-application-manager">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="nome-jndi">
+    <xsd:complexType>
+      <xsd:attribute name="valor" type="xsd:string"/>
+      <xsd:attribute name="nome-item" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

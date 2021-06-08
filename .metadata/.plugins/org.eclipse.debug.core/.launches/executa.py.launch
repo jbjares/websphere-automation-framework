@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="net.redrobin.eclipse.jydt.launching.jython">
+<stringAttribute key="net.redrobin.eclipse.jydt.core.MODULE" value="executa.py"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files (x86)/IBM/SDP_75/runtimes/base_v7/optionalLibraries/jython/jython.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.python.util.jython"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="executa.py"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HelloWorld"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="&quot;-Dpython.home=C:/Program Files (x86)/IBM/SDP_75/runtimes/base_v7/optionalLibraries/jython&quot; &quot;-Dpython.path=&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="HelloWorld/teste"/>
+</launchConfiguration>

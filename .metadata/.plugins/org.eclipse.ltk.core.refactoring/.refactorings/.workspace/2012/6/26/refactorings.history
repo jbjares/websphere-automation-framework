@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Excluir 6 recursos" deleteContents="false" description="Excluir 6 recursos" element1="/S095-LMParser/commons-collections-3.2.1.jar" element2="/S095-LMParser/poi-3.8-20120326.jar" element3="/S095-LMParser/poi-excelant-3.8-20120326.jar" element4="/S095-LMParser/poi-ooxml-3.8-20120326.jar" element5="/S095-LMParser/poi-ooxml-schemas-3.8-20120326.jar" element6="/S095-LMParser/poi-scratchpad-3.8-20120326.jar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="6" stamp="1340388675936"/>
+</session>

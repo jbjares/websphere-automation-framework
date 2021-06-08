@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="S095-AutoDeploySupportEAR">
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module archiveName="S095-AutoDeploySupportEJB.jar" deploy-path="/" handle="module:/resource/S095-AutoDeploySupportEJB/S095-AutoDeploySupportEJB">
+            <dependent-object>Module_1343657627337</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="S095-AutoDeploySupportEJBClient.jar" deploy-path="/" handle="module:/resource/S095-AutoDeploySupportEJBClient/S095-AutoDeploySupportEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="S095-AutoDeploySupportEJB_HTTPRouter.war" deploy-path="/" handle="module:/resource/S095-AutoDeploySupportEJB_HTTPRouter/S095-AutoDeploySupportEJB_HTTPRouter">
+            <dependent-object>Module_1343657855795</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

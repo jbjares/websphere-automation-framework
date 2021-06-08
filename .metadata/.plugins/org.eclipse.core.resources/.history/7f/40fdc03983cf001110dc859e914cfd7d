@@ -1,0 +1,219 @@
+package br.gov.bnb.s095.lib.odm.parser;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import javax.swing.text.Segment;
+
+import org.apache.commons.collections.MultiHashMap;
+
+import br.gov.bnb.s095.lib.javatopython.lmconfig.entity.OrigemDados;
+import br.gov.bnb.s095.lib.javatopython.lmconfig.entity.Seguranca;
+
+public class ODMParserMock extends ODMParser{
+	
+	private static HashMap lmMap = new MultiHashMap();
+	
+	static{
+		
+		//### app_deploy.py ###
+		lmMap.put("Localização do pacote aplicativo","C:\\Users\\c010098\\Desktop\\S095-AutoDeployEAR.ear");
+		lmMap.put("Nome da raiz de contexto","S095-AutoDeployWEB");
+		lmMap.put("Pré-compilar arquivos JSP?","Sim");
+		
+//		lmMap.put("Célula/Nó/Servidor destino","WebSphere:cell=wdcell,cluster=WDCLS01");
+//		lmMap.put("Diretório de instalação do aplicativo","/was/v7r0/wdcell/wdnodea/AppServer/profiles/default/installedApps/wdcell");
+		lmMap.put("Célula/Nó/Servidor destino","WebSphere:cell=M1072317Node01Cell,node=M1072317Node01,Server=server1");
+		lmMap.put("Diretório de instalação do aplicativo","C:\\Program Files (x86)\\IBM\\SDP_75\\runtimes\\base_v7\\profiles\\was70profile1\\installedApps\\M1072317Node01Cell");
+		
+		lmMap.put("Distribuir aplicativo?","Sim");
+		lmMap.put("Implementar Beans Corporativos?","Sim");
+		lmMap.put("Nome do aplicativo","S095-AutoDeployEAR");
+		lmMap.put("Nome do Módulo WEB","S095-AutoDeployWEB");
+		lmMap.put("Nome do(s) Módulo(s) EJB","S095-DeployableEJB");
+		lmMap.put("Nome do(s) Módulo(s) EJB","S095-IntegraEJB");
+		lmMap.put("Criar MBeans para recursos?","Sim");
+		lmMap.put("Validar Entrada Desligar/Avisar/Falhar","Avisar");
+		lmMap.put("Processar configuração incorporada?","Não");
+		lmMap.put("Permissões de arquivo",".*\\.dll=755#.*\\.so=755#.*\\.a=755#.*\\.sl=755");
+//		lmMap.put("Mapeamento de módulos para servidores","WebSphere:cell=wdcell,cluster=WDCLS01");
+//		lmMap.put("Mapeamento de módulos para servidores","WebSphere:cell=wdcell,node=wdnodea,server=HTTPServer");
+		lmMap.put("Referenciar bibliotecas compartilhadas","S095-AutoDeployEAR/Log4J");
+		lmMap.put("Referenciar bibliotecas compartilhadas","S095-AutoDeployEAR/BNB-Utilitarios ");
+		lmMap.put("Referenciar bibliotecas compartilhadas","S095-AutoDeployWEB/BNB-JCIFS ");
+		lmMap.put("Referenciar bibliotecas compartilhadas","S095-AutoDeployWEB/BNB-Sitelib ");
+		lmMap.put("Referenciar bibliotecas compartilhadas","S095-AutoDeployWEB/Log4J");
+
+		
+		//### app_deploy.py ###
+		lmMap.put("Segurança – Autenticação J2C","");
+		lmMap.put("J2C Alias","S533_DB2_JAAS_1");
+		lmMap.put("J2C ID do usuário","U533DES");
+		lmMap.put("J2C Senha","46TQ3653");
+		lmMap.put("J2C Descrição","Autenticacao com o banco DB2 do S533");
+		
+		lmMap.put("Segurança – Autenticação J2C","");
+		lmMap.put("J2C Alias","S533_DB2_JAAS_2");
+		lmMap.put("J2C ID do usuário","U533DES");
+		lmMap.put("J2C Senha","46TQ3653");
+		lmMap.put("J2C Descrição","Autenticacao com o banco DB2 do S533");
+		
+		lmMap.put("Segurança – Autenticação J2C","");
+		lmMap.put("J2C Alias","S533_DB2_JAAS_3");
+		lmMap.put("J2C ID do usuário","U533DES");
+		lmMap.put("J2C Senha","46TQ3653");
+		lmMap.put("J2C Descrição","Autenticacao com o banco DB2 do S533");
+		
+		//### app_datasource.py ###
+		lmMap.put("Recursos JDBC – Origens de Dados","");
+		lmMap.put("DS Nome da origem de dados","DS123");
+		lmMap.put("DS Nome JNDI","jdbc/DS123_");
+		lmMap.put("DS Alias de autenticação","S533_DB2_JAAS_1");
+		lmMap.put("DS Escopo do Provedor","/");
+		//lmMap.put("DS Escopo do Provedor","WebSphere:Server=server1");
+		lmMap.put("DS Nome do Provedor","DB2 Universal JDBC Driver Provider");
+		lmMap.put("DS Nome do banco de dados","DB2T");
+		lmMap.put("DS Nome do servidor","d001mfd1");
+		lmMap.put("DS Numero da porta","5021");
+		lmMap.put("DS Utilizar a origem no CMP","Sim");
+		lmMap.put("DS Nome da Classe Helper","Sim");
+		
+		lmMap.put("Recursos JDBC – Origens de Dados","");
+		lmMap.put("DS Nome da origem de dados","DS1234");
+		lmMap.put("DS Nome JNDI","jdbc/DS1234_");
+		lmMap.put("DS Alias de autenticação","S533_DB2_JAAS_2");
+		lmMap.put("DS Escopo do Provedor","/");
+		//lmMap.put("DS Escopo do Provedor","WebSphere:Server=server1");
+		lmMap.put("DS Nome do Provedor","DB2 Universal JDBC Driver Provider ");
+		lmMap.put("DS Nome do banco de dados","DB2T");
+		lmMap.put("DS Nome do servidor","d001mfd1");
+		lmMap.put("DS Numero da porta","5021");
+		lmMap.put("DS Utilizar a origem no CMP","Sim");
+		lmMap.put("DS Nome da Classe Helper","Sim");
+		
+		
+	}
+	
+
+	@Override
+	public String getValorAtributoLM(String atributo) {
+		return (String) ((List<?>)lmMap.get(atributo)).get(0);			
+	}
+
+	@Override
+	public List<?> getValorAtributoLMLista(String atributo) {
+		if(atributo.contains("Segurança – Autenticação J2C")){
+			List<Seguranca> segurancaList = new ArrayList<Seguranca>();
+			int segurancaSize = ((List<?>) lmMap.get(atributo)).size();
+			for(int i=0;i<segurancaSize;i++){
+				Seguranca seguranca = new Seguranca();
+				segurancaList.add(seguranca);
+			
+				List<String> aliases = (List<String>)getValorAtributoLMLista("J2C Alias");
+				for(String alias: aliases){
+					seguranca.setAlias(alias);
+					aliases.remove(alias);
+					break;
+				}
+				
+				List<String> usuarios = (List<String>)getValorAtributoLMLista("J2C ID do usuário");
+				for(String usuario: usuarios){
+					seguranca.setUsuario(usuario);
+					usuarios.remove(usuario);
+					break;
+				}
+				
+				List<String> senhas = (List<String>)getValorAtributoLMLista("J2C Senha");
+				for(String senha: senhas){
+					seguranca.setSenha(senha);
+					senhas.remove(senha);
+					break;
+				}
+				
+				List<String> descricoes = (List<String>)getValorAtributoLMLista("J2C Descrição");
+				for(String descricao: descricoes){
+					seguranca.setDescricao(descricao);
+					descricoes.remove(descricao);
+					break;
+				}
+			}
+			return segurancaList;
+		}else if(atributo.contains("Recursos JDBC – Origens de Dados")){
+				List<OrigemDados> origemDadosList = new ArrayList<OrigemDados>();
+				int origemDadosListSize = ((List<?>) lmMap.get(atributo)).size();
+				for(int i=0;i<origemDadosListSize;i++){
+					OrigemDados origemDados = new OrigemDados();
+					origemDadosList.add(origemDados);
+					
+					List<String> nomes = (List<String>)getValorAtributoLMLista("DS Nome da origem de dados");
+					for(String nome: nomes){
+						origemDados.setNomeOrigem(nome);
+						nomes.remove(nome);
+						break;
+					}
+					
+					List<String> nomesJndi = (List<String>)getValorAtributoLMLista("DS Nome JNDI");
+					for(String nome: nomesJndi){
+						origemDados.setNomeJNDI(nome);
+						nomesJndi.remove(nome);
+						break;
+					}
+					
+					List<String> aliases = (List<String>)getValorAtributoLMLista("DS Alias de autenticação");
+					for(String alias: aliases){
+						origemDados.setAliasAutenticacao(alias);
+						aliases.remove(alias);
+						break;
+					}
+					
+					List<String> escoposProvedor = (List<String>)getValorAtributoLMLista("DS Escopo do Provedor");
+					for(String escopo: escoposProvedor){
+						origemDados.setEscopoProvedor(escopo);
+						escoposProvedor.remove(escopo);
+						break;
+					}
+					
+					List<String> nomesProvedor = (List<String>)getValorAtributoLMLista("DS Nome do Provedor");
+					for(String nomeProvedor: nomesProvedor){
+						origemDados.setNomeProvedor(nomeProvedor);
+						nomesProvedor.remove(nomeProvedor);
+						break;
+					}
+					
+					List<String> nomesBD = (List<String>)getValorAtributoLMLista("DS Nome do banco de dados");
+					for(String nomeBD: nomesBD){
+						origemDados.setNomeBancoDados(nomeBD);
+						nomesBD.remove(nomeBD);
+						break;
+					}
+					
+					List<String> nomesServidor = (List<String>)getValorAtributoLMLista("DS Nome do servidor");
+					for(String nomeServidor: nomesServidor){
+						origemDados.setNomeServidor(nomeServidor);
+						nomesServidor.remove(nomeServidor);
+						break;
+					}
+					
+					List<String> numerosPorta = (List<String>)getValorAtributoLMLista("DS Numero da porta");
+					for(String numeroPorta: numerosPorta){
+						origemDados.setNumeroPorta(numeroPorta);
+						numerosPorta.remove(numeroPorta);
+						break;
+					}
+					
+					List<String> usarCMPs = (List<String>)getValorAtributoLMLista("DS Utilizar a origem no CMP");
+					for(String usarCMP: usarCMPs){
+						Boolean booleanAttr =  "SIM".equals(usarCMP.trim().toUpperCase())?true:false;
+						System.out.println(booleanAttr);
+						origemDados.setUtilizarCMP(booleanAttr);
+						usarCMPs.remove(usarCMP);
+						break;
+					}
+				}
+				return origemDadosList;
+		}else{
+			return (List<?>) lmMap.get(atributo);			
+		}
+	}
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.ws.ast.st.admin.launchConfigurationType">
+<stringAttribute key="script_name" value="C:\Projetos\Arquitetura\Jython\HelloWorld\br_gov_bnb_jython_exemplo\__init__.py"/>
+<stringAttribute key="script_to_run_name" value="C:\Projetos\Arquitetura\Jython\HelloWorld\br_gov_bnb_jython_exemplo\__init__.py"/>
+<stringAttribute key="workspace_project_name" value="HelloWorld"/>
+</launchConfiguration>

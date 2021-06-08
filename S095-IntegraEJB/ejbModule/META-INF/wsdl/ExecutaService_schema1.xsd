@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema targetNamespace="http://servico.autodeploy.support.bnb.gov.br/" version="1.0" xmlns:tns="http://servico.autodeploy.support.bnb.gov.br/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="executar" type="tns:executar"/>
+
+  <xs:element name="executarResponse" type="tns:executarResponse"/>
+
+  <xs:complexType name="executar">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="executarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
